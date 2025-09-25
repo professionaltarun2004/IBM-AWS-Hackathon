@@ -313,10 +313,10 @@ def demo_real_time_simulation():
 
 def main():
     """Run the complete demonstration."""
-    print_header("🏥 GOOD DOCTOR ML - STRESS DETECTION SYSTEM DEMO")
+    print_header("🏥 AURAVERSE ML - STRESS DETECTION SYSTEM DEMO")
     
     print(f"""
-🎯 Welcome to the Good Doctor ML Stress Detection System!
+🎯 Welcome to the AuraVerse ML Stress Detection System!
 
 This demonstration showcases a complete machine learning pipeline for:
 • Stress level classification (Low/Moderate/High)
@@ -355,7 +355,7 @@ Next Steps:
 • 📊 View detailed results: model_evaluation_report.txt
 • 📖 Read documentation: README.md
 
-The Good Doctor ML system is ready for integration with wearable devices,
+The AuraVerse ML system is ready for integration with wearable devices,
 healthcare systems, and clinical research applications!
 """)
         

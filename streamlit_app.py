@@ -28,7 +28,7 @@ from enhanced_panic_model import EnhancedPanicPredictor
 
 # Page configuration
 st.set_page_config(
-    page_title="Good Doctor - Panic Attack Prediction",
+    page_title="AuraVerse - Panic Attack Prediction",
     page_icon="🏥",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -226,7 +226,7 @@ def main():
     """Main Streamlit application."""
     
     # Header
-    st.markdown('<h1 class="main-header">🏥 Good Doctor - Panic Attack Prediction</h1>', 
+    st.markdown('<h1 class="main-header">🏥 AuraVerse - Panic Attack Prediction</h1>', 
                 unsafe_allow_html=True)
     
     st.markdown("""

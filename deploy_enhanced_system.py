@@ -225,7 +225,7 @@ def create_deployment_guide():
     print("📚 Creating deployment guide...")
     
     guide_content = """
-# Good Doctor - Enhanced Panic Attack Prediction System
+# AuraVerse - Enhanced Panic Attack Prediction System
 ## Deployment Guide
 
 ## 🚀 Quick Start
@@ -382,7 +382,7 @@ Wearables → AWS IoT Core → Lambda → SageMaker → SNS → Twilio
 def main():
     """Main deployment function."""
     print("="*60)
-    print("🏥 GOOD DOCTOR - ENHANCED SYSTEM DEPLOYMENT")
+    print("🏥 AURAVERSE - ENHANCED SYSTEM DEPLOYMENT")
     print("="*60)
     
     # Check requirements
@@ -418,7 +418,7 @@ def main():
 4. Test panic prediction with sample data
 5. Configure AWS IoT for wearable integration (optional)
 
-🚀 The enhanced Good Doctor system is ready for deployment!
+🚀 The enhanced AuraVerse system is ready for deployment!
 """)
     
     # Ask if user wants to start the app

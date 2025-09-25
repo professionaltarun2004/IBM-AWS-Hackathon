@@ -1,4 +1,4 @@
-# Good Doctor ML - Stress Detection System
+# AuraVerse ML - Stress Detection System
 
 A comprehensive machine learning system for stress detection and panic attack prediction in autistic children using wearable devices and behavioral data.
 

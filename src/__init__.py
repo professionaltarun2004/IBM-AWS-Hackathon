@@ -1,1 +1,1 @@
-# Good Doctor ML - Stress Detection System
+# AuraVerse ML - Stress Detection System

@@ -1,5 +1,5 @@
 """
-Simple script to run the Good Doctor Streamlit app
+Simple script to run the AuraVerse Streamlit app
 """
 
 import subprocess
@@ -23,7 +23,7 @@ def check_model():
 
 def run_streamlit():
     """Run the Streamlit app."""
-    print("🚀 Starting Good Doctor Streamlit App...")
+    print("🚀 Starting AuraVerse Streamlit App...")
     
     try:
         # Run streamlit
@@ -39,7 +39,7 @@ def run_streamlit():
 def main():
     """Main function."""
     print("="*50)
-    print("🏥 GOOD DOCTOR - PANIC ATTACK PREDICTION")
+    print("🏥 AURAVERSE - PANIC ATTACK PREDICTION")
     print("="*50)
     
     # Check if model exists

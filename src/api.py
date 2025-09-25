@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = FastAPI(
-    title="Good Doctor ML - Stress Detection API",
+    title="AuraVerse ML - Stress Detection API",
     description="Real-time stress detection and panic attack prediction system",
     version="1.0.0"
 )

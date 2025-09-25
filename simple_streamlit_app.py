@@ -18,7 +18,7 @@ from enhanced_panic_model import EnhancedPanicPredictor
 
 # Page config
 st.set_page_config(
-    page_title="Good Doctor - Panic Prediction",
+    page_title="AuraVerse - Panic Prediction",
     page_icon="🏥",
     layout="wide"
 )
@@ -126,7 +126,7 @@ def main():
     """Main application."""
     
     # Header
-    st.markdown('<h1 class="main-header">🏥 Good Doctor - Panic Attack Prediction</h1>', 
+    st.markdown('<h1 class="main-header">🏥 AuraVerse - Panic Attack Prediction</h1>', 
                 unsafe_allow_html=True)
     
     st.markdown("""
