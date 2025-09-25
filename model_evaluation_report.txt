@@ -1,0 +1,38 @@
+================================================================================
+STRESS DETECTION ML SYSTEM - FINAL RESULTS SUMMARY
+================================================================================
+
+1. STRESS LEVEL CLASSIFICATION
+   Best Model: random_forest
+   Accuracy: 0.612
+   F1-Score: 0.580
+   ROC-AUC: 0.760
+   Requirement Met (>=85%): NO
+
+2. STRESS INTENSITY REGRESSION
+   Best Model: random_forest
+   RMSE: 6.227
+   MAE: 5.024
+   R²: 0.478
+   RMSE Requirement Met (<=3.0): NO
+   R2 Requirement Met (>=0.75): NO
+
+   Top 5 Important Features:
+   - PSS_score_3d_avg: 0.419
+   - PSS_score_lag1: 0.152
+   - Openness: 0.021
+   - Neuroticism: 0.020
+   - call_duration: 0.020
+
+3. NEXT-DAY STRESS FORECASTING
+   MAE: 9.363
+   RMSE: 11.373
+   MAE Requirement Met (<=2.5): NO
+
+4. PANIC ATTACK PREDICTION
+   Best Model: random_forest
+   PR-AUC: 0.391
+   ROC-AUC: 0.772
+   PR-AUC Requirement Met (>=0.80): NO
+
+================================================================================

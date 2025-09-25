@@ -1,0 +1,29 @@
+{
+  "aws_iot": {
+    "region": "us-east-1",
+    "thing_name": "good-doctor-wearable",
+    "topic_prefix": "good-doctor/data",
+    "endpoints": {
+      "data_ingestion": "good-doctor/wearable/data",
+      "alerts": "good-doctor/alerts/panic",
+      "status": "good-doctor/device/status"
+    }
+  },
+  "data_mapping": {
+    "heart_rate": "sensors.heart_rate",
+    "accelerometer": "sensors.accelerometer.magnitude",
+    "skin_conductance": "sensors.gsr.value",
+    "sleep_duration": "sleep.duration_hours"
+  },
+  "alert_thresholds": {
+    "panic_probability": 0.7,
+    "consecutive_alerts": 3,
+    "cooldown_minutes": 15
+  },
+  "twilio": {
+    "account_sid": "${TWILIO_ACCOUNT_SID}",
+    "auth_token": "${TWILIO_AUTH_TOKEN}",
+    "from_phone": "${TWILIO_PHONE}",
+    "to_phone": "${CAREGIVER_PHONE}"
+  }
+}

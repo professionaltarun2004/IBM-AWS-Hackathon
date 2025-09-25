@@ -1,0 +1,21 @@
+
+version: '3.8'
+
+services:
+  good-doctor-app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - TWILIO_ACCOUNT_SID=${TWILIO_ACCOUNT_SID}
+      - TWILIO_AUTH_TOKEN=${TWILIO_AUTH_TOKEN}
+      - TWILIO_PHONE=${TWILIO_PHONE}
+      - CAREGIVER_PHONE=${CAREGIVER_PHONE}
+    volumes:
+      - ./panic_model.pkl:/app/panic_model.pkl:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
