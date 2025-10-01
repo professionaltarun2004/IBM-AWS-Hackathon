@@ -75,10 +75,10 @@
     
 #     def __init__(self):
 #         # Twilio configuration (use environment variables in production)
-#         self.account_sid = os.getenv('TWILIO_ACCOUNT_SID', 'ACcc9dc2db42ae18f9113d84afa1f42e4c')
-#         self.auth_token = os.getenv('TWILIO_AUTH_TOKEN', 'e9c5ef6706329d653e2ce205219d6372')
-#         self.from_phone = os.getenv('TWILIO_PHONE', '+12525184837')
-#         self.to_phone = os.getenv('CAREGIVER_PHONE', '+919391616573')
+#         self.account_sid = os.getenv('TWILIO_ACCOUNT_SID', '')
+#         self.auth_token = os.getenv('TWILIO_AUTH_TOKEN', '')
+#         self.from_phone = os.getenv('TWILIO_PHONE', '')
+#         self.to_phone = os.getenv('CAREGIVER_PHONE', '')
         
 #         # Initialize client (only if credentials are provided and Twilio is available)
 #         self.client = None
