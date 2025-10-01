@@ -560,10 +560,10 @@ class TwilioIntegration:
     
     def __init__(self):
         # Initialize with placeholders (to be updated via sidebar)
-        self.account_sid = os.getenv('TWILIO_ACCOUNT_SID', 'ACcc9dc2db42ae18f9113d84afa1f42e4c')
-        self.auth_token = os.getenv('TWILIO_AUTH_TOKEN', '2e75ac3e50245e476bfbec0639a9352e')
-        self.from_phone = os.getenv('TWILIO_PHONE', '+12525184837')
-        self.to_phone = os.getenv('CAREGIVER_PHONE', '+919391616573')
+        self.account_sid = os.getenv('TWILIO_ACCOUNT_SID', '')
+        self.auth_token = os.getenv('TWILIO_AUTH_TOKEN', '')
+        self.from_phone = os.getenv('TWILIO_PHONE', '')
+        self.to_phone = os.getenv('CAREGIVER_PHONE', '')
         self.client = None
         self._initialize_client()
 
