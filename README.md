@@ -2,6 +2,9 @@
 
 A comprehensive machine learning system for stress detection and panic attack prediction in autistic children using wearable devices and behavioral data.
 
+##Live demo streamlit
+https://ibmaws.streamlit.app/
+
 ## 🎯 Project Overview
 
 This system implements a complete ML pipeline for:
